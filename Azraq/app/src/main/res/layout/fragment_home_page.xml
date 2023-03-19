@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@color/baby_blue">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+        android:text="الرئيسية"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="100dp"
+        android:textSize="50sp"
+        android:text="اهلا بك"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="230dp"
+        android:background="@color/grey"
+        android:text=" التقدم اليومي"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="181dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text=" قائمة الألعاب"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="181dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text=" النظارات"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="370dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="470dp"
+        android:background="@color/grey"
+        android:text=" بدء محادثة"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="340dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="270dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="157dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="390dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="161dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="390dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="340dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="510dp"/>
+
+</FrameLayout>
